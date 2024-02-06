@@ -1,0 +1,373 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 2500px;
+    width: 1519px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#CartPage {
+    height: 700px;
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    background-color: #F5EEE6;
+    text-align: center;
+    box-shadow: 2px 0px 10px 0px #867070;
+    z-index: 2;
+}
+
+h3 {
+    font-size: 30px;
+    margin: 0;
+    color: #E6A4B4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btns {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #606ab7;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: 'Gamja Flower', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.btns:hover {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+.btns:active {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+#carBtn {
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    right: 200px;
+}
+
+.productCount {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 20px;
+}
+
+.TotalProductPrice {
+    resize: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 20px;
+}
+
+#TotalPrice {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 100px;
+    resize: none;
+}
+
+#Checkout {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    right: 0;
+}
+
+#cart {
+    position: relative;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.slideshow-container {
+    text-align: center;
+    margin-top: 20px;
+    height: 520px;
+}
+
+.slideshow {
+    position: flex;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+
+}
+
+img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slideBtns {
+    position: absolute;
+    top: 200px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #606ab7;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FFF8E3;
+}
+
+.slideBtns:hover {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+.slideBtns:active {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+#nextBtn {
+    position: absolute;
+    right: 0;
+}
+
+#prevBtn {
+    left: 0;
+}
+
+.category {
+    padding: 10px;
+    margin: 20px;
+    color: #606ab7;
+    font-size: 30px;
+    font-family: 'Gamja Flower', sans-serif;
+    cursor: pointer;
+    background-color: #FFF8E3;
+    box-shadow: 15px 13px 20px 0px #F5EEE6;
+    transition: background-color 0.3s ease;
+    border-radius: 40px;
+    border: none;
+}
+
+.category:hover {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+.category:active {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+#categories {
+    width: 100%;
+    text-align: center;
+}
+
+#products {
+    width: 1400px;
+    height: 200px;
+    margin-left: 100px;
+}
+
+.arrow-up {
+    font-size: 30px;
+    text-decoration: none;
+    margin: 30px;
+    color: #bc4d2b;
+}
+
+#aboutus {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Products {
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+#price {
+    color: #31304D;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 2px;
+}
+
+
+#removBtn {
+    right: 60px;
+    bottom: 50px;
+    box-shadow: none;
+}
+
+.productBtn {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: #FFF8E3;
+    box-shadow: 15px 13px 20px 0px #F5EEE6;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease;
+    border-radius: 40px;
+    border: none;
+}
+
+.productBtn:hover {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+.productBtn:active {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+#AddCart {
+    left: 0;
+}
+
+#ReadMore {
+    right: 0;
+}
+
+.productelem {
+    border-radius: 50px;
+    border: none;
+    background-color: #FBF0B2;
+    padding: 10px;
+}
+
+.contactusbody {
+    height: 700px;
+}
+
+.contactusinputs {
+    position: relative;
+    background-color: #FFEAEA;
+    font-size: 15px;
+    width: 700px;
+    height: 40px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    right: 250px;
+}
+
+.contactus {
+    position: relative;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.contactusbtn {
+    position: absolute;
+    width: 200px;
+    padding: 10px;
+    background-color: #FFF8E3;
+    box-shadow: 15px 13px 20px 0px #F5EEE6;
+    transition: background-color 0.3s ease;
+    border-radius: 40px;
+    border: none;
+    text-align: center;
+    left: 70px
+}
+
+.contactusbtn:hover {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+.contactusbtn:active {
+    color: #E6A4B4;
+    background-color: #31304D;
+}
+
+
+
+#productbody {
+    height: 700px;
+}
+
+#productimg {
+    width: 300px;
+    display: inline-block;
+    position: relative;
+}
+
+#productTitle {
+    color: #756AB6;
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Gamja Flower', sans-serif;
+}
+
+#productDescription {
+    color: #1F2544;
+    position: absolute;
+    text-align: center;
+    width: 800px;
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+    z-index: 1;
+    display: inline-block;
+
+}
+
+.contactUsinfo {
+    margin: 5px;
+    position: relative;
+    right: 200px;
+    font-size: 20px;
+    color: #31304D;
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #f6f3ef;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.copyright {
+    text-align: center;
+    color: #bc4d2b;
+}
+
+.producthead {
+    width: 1535px;
+}
