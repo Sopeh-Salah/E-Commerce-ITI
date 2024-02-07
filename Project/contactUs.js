@@ -15,8 +15,6 @@ let contactus = document.getElementById("contactus")
 
 
 contactus.addEventListener("click", function () {
-    console.log(email.value);
-    console.log(password.value);
     if (isValidEmail(email.value)) {
         if (isValidPassword(password.value)) {
             console.log(password.value);
@@ -27,7 +25,4 @@ contactus.addEventListener("click", function () {
     } else {
         alert("The email must contain @")
     }
-    setTimeout(() => {
-
-    }, 2000);
 })
